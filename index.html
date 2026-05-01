@@ -15,7 +15,11 @@ background:#020617;
 color:#e2e8f0;
 scroll-behavior:smooth;
 }
-
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+}
 /* NAVBAR */
 header{
 position:fixed;
@@ -176,7 +180,13 @@ to{opacity:1;transform:none}
 <body>
 
 <header>
-<div><strong>Shen Technologies</strong></div>
+<div class="logo">
+  <img src="logo.png" alt="Shen Technologies Logo">
+  <div>
+    <strong>Shen Technologies</strong><br>
+    <span style="font-size:12px;color:#22c55e;">Complete IT Solution</span>
+  </div>
+
 <nav>
 <a href="#solutions">Solutions</a>
 <a href="#products">Products</a>
